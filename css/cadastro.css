@@ -1,0 +1,120 @@
+/* CCS */
+/* Comentario */
+
+
+/* Seletor { propriedade, valor; }*/
+*{
+	/* Modifica toda a página*/
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, Arial;
+}
+
+body{
+	background-color: #A4A4A4;
+
+}
+header{
+	background-color: #088A85;
+	height: 100px;
+	padding: 15px;
+}
+h1{
+	color: white;
+	text-shadow: 1px 1px 5px #111111;
+	text-align: center;
+	font-size: 70px;
+	margin: 0 0 50px 0;
+	font-family: Helvetica;
+
+}
+p{
+	color: white;
+	text-align: justify;
+	text-shadow: 1px 1px 5px #111111;
+	font-size: 15px;
+	font-family: Helvetica;
+
+
+}
+h5{
+	font-family: Arial;
+	font-size: 5px;
+	clear: both;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 5px #111111;
+	padding: 5px;
+
+}
+h6{
+	font-family: Arial;
+	font-size: 12px;
+	clear: both;
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 5px #111111;
+	padding: 5px;
+
+}
+footer{
+	clear: both;	
+	color: white;
+	text-align: center;
+	text-shadow: 1px 1px 5px #111111;
+	background-color: #088A85;
+	height: 60px;
+	padding: 5px;
+
+}
+
+/* Meus IDs */
+#principal{
+	background-image: url('../fundo02.png');
+	background-size: 150%;
+	min-height: 400px;
+	padding: 50px 0 0 0;
+
+	clear: both;
+
+
+}
+#logo{
+	float: left;
+
+
+}
+#menu{
+	float: right;
+	margin: 20px;
+}
+#menu a{
+	padding: 70px 15px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 1px 1px #111111;
+	border-radius: 15px;
+	-webkit-transition: 0.9s;
+}
+/* propriedade HOVER para sobreposição - quando passa o mouse o menu muda cor */
+#menu a:hover{
+	background-image: linear-gradient(180deg, #298A08, #29212c);
+	/*background-color: #DC143C; */
+
+}
+#busca{
+	float: right;
+	padding: 10px 0 10px 0px;
+}
+/* CLASS */
+.container{
+	width: 980px;
+	margin:auto;
+	text-align: right;
+	text-decoration-color: white;
+
+}
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0px;
+}
