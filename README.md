@@ -1,2 +1,4 @@
 # CadastroPessoasPHP
-Trabalho de apresentação final da graduação de Computação, cadeira de Programação para Web (2020).
+Trabalho final de apresentação | Graduação em Computação | Programação para Web (2020).
+
+Professora: Marla Sopeña
